@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Conta</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string-array name="operadoras_array">
+        <item></item>
+        <item>OP1</item>
+        <item>OP2</item>
+        <item>OP3</item>
+    </string-array>
 </resources>

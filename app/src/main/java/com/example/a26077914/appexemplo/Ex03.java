@@ -22,14 +22,14 @@ public class Ex03 extends AppCompatActivity {
         txtResultado = findViewById(R.id.Resultado);
     }
     public void calcularPesoIdeal(View v){
-        String altura - inputAltura.getText().toString();
+        String altura = inputAltura.getText().toString();
         if(rdGroup.getCheckedRadioButtonId() ==R.id.Masculino){
             resultado = (72.7 * Double.parseDouble(altura)) - 58;
-        }
+
     }else{
             resultado = (62.1 * Double.parseDouble(altura)) - 44.7;
     }
-        txtResultado.setText("O peso Ideal é " + Resultado);
+        txtResultado.setText("O peso Ideal é " + resultado);
 
     }
 
