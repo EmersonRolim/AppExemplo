@@ -36,8 +36,18 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Ex08Result"
-                  android:label="RESULTADO">
+        <activity
+                android:name=".Ex08Result"
+                android:label="RESULTADO">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Ex10"
+                android:label="Desconto Promocional">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
